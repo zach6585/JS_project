@@ -1,0 +1,5 @@
+This project is titled Paint!
+
+For this project I focused heavily on the use of event listeners and utilized fetch statements to get and post information about users and the paintings themselves.
+
+You can signup and log in which are aspects that utilize fetch (check if username already exists as well as post 
