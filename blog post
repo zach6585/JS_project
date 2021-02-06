@@ -2,4 +2,5 @@ This project is titled Paint!
 
 For this project I focused heavily on the use of event listeners and utilized fetch statements to get and post information about users and the paintings themselves.
 
-You can signup and log in which are aspects that utilize fetch (check if username already exists as well as post 
+You can signup and log in which are aspects that utilize fetch (check if username already exists as well as posting new names to the rails db). You can also paint, save those paintings
+to a database, and then view smaller versions of all of the paintings you've made. This utilizes fetch a lot as well as event listeners. 
