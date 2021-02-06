@@ -1,0 +1,124 @@
+
+/* ------------------------------------------- Painting Page ------------------------------------------- */
+
+
+div#menu {
+  top: 0;
+  left: 0;
+  line-height: 3px;
+}
+
+div.lines {
+  height: 5px;
+  width: 22px;
+  
+  background-color: black;
+}
+
+div.paintcolors {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+#redcircle {
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%
+  }
+
+  #bluecircle {
+    width: 50px;
+    height: 50px;
+    background: blue;
+    border-radius: 50%
+  }
+
+  #yellowcircle {
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    border-radius: 50%
+  }
+
+  #eraser {
+    width: 50px;
+    height: 50px;
+  }
+  
+  #paintarea {
+    margin-left: 100px;
+    width: 1100px;
+    height: 950px;
+  }
+
+
+  div.paintcircles {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  div#savestuff {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: space-between;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+ 
+
+  label#nmlbl {
+    position: absolute;
+    text-align: center;
+    left: 16%;
+    top: 200%;
+    white-space: nowrap;
+  }
+
+  textarea#savename {
+    height: 40px;
+    text-align: center;
+    width: 200px;
+    margin: 0;
+    position: absolute;
+    top: 420%;
+    left: 55%;
+    display: block;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .smallcircles{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+  }
+
+  div.smallpaintareas {
+    width: 220px;
+    height: 190px;
+    position: absolute;
+    left: 800px;
+    background-color: aquamarine;
+    border: 3px solid green;
+    
+
+  }
+
+
+  div.easels {
+    text-align: center;
+    padding: 100px;
+  }
+
+  div#alleasels {
+    margin-top: -100px;
+    margin-bottom: 200px;
+  }
